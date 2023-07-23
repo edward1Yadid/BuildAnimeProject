@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#containner {
+    display: flex;
+    flex-direction: row;
+    gap: 10.25rem;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#PageBuilder {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+
+
+#redInput,
+#greenInput,
+#blueInput {
+    width: 90px;
+
+
+}
+
+.detailsPageBuilder {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+#template {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    gap: 1.25rem;
+    background-image: url(./images/background.png);
+    height: 100vh;
+
+}
+
+#rightAndLegt {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#topToBootom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+
+.header-Pageb {
+    font-size: 200;
+    font-weight: bold;
+
+}
+
+#button1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+#animation1,
+#animation2,
+#animation3,
+#color,
+#btnAdd,
+#btnRST {
+    background-color: rgb(179, 32, 81);
+    padding: 5px 20px;
+    border: 0;
+}
+
+.flex1 {
+
+    width: 100%;
+    margin: 80px;
+    height: 89vh;
+    box-shadow: 2px 3px 38px lightblue;
+
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: .625rem;
+
+
+}
+
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 5vw;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    justify-content: space-evenly;
+    left: 0;
+    height: 100%;
+    width: 5vw;
+    position: absolute;
+}
+
+
+
+#top {
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    width: 100%;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+
+/*animation-1*/
+#animation {
+    display: flex;
+    flex-direction: row;
+    gap: .3125rem;
+
+}
+
+.color-yellow {
+    background-color: yellow !important;
+}
+
+.color-red {
+
+    background-color: red !important;
+}
+
+.color-pink {
+
+    background-color: pink !important;
+}
+
+.color-green {
+
+    background-color: rgb(8, 239, 166) !important;
+}
+
+.bigDiv-2 {
+    font-size: 50px;
+    text-align: center;
+    transform: translate(-200%, 250%) !important;
+    position: absolute;
+    width: 300px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+/*animation-2*/
+.border-radius {
+    border-radius: 0% !important;
+    height: 25px !important;
+    animation: spin 1s infinite;
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+.border-radius-1 {
+    border-radius: 0% !important;
+    height: 25px !important;
+    animation: spin1 1s infinite;
+
+}
+
+.bigDiv-1 {
+
+    position: absolute;
+    transform: translate(-200%, 250%) !important;
+    animation: spin1 1s infinite;
+}
+
+@keyframes spin1 {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+
+
+
+
+/*animation-3*/
+.flash-radius {
+
+    animation: pluse 2s ease-in-out infinite;
+
+}
+
+.bigDiv {
+    position: absolute;
+    transform: translate(-200%, 150%) !important;
+    border-radius: 50%;
+    animation: pluse 2s ease-in-out infinite;
+}
+
+@keyframes pluse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+
+
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+}

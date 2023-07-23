@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PageBuilder</title>
+</head>
+
+<body>
+    <div id="containner">
+        <div id="budilder">
+
+            <div id="template">
+
+                <div>
+                    <h2 class="header-Pageb">בונה האנימציות</h2>
+                </div>
+                <div>
+                    <p class="details-pageb">אתר לבניית אניצמיות מגניבות</p>
+                </div>
+                <div class="flex">
+                    <label for="redInput"></label>
+                    <input type="range" name="redInput" id="redInput" placeholder="" required min="0" max="255">
+                    <label for="redInput"></label>
+                    <input type="range" name="greenInput" id="greenInput" placeholder="" required min="0" max="255">
+                    <label for="blueInput"></label>
+                    <input type="range" name="blueInput" id="blueInput" placeholder="" required min="0" max="255">
+                </div>
+                <button id="color">בחר צבע</button>
+                <div class="detailsPageBuilder">
+
+                    <div class="order"><label for="typeOfTheElements">סוג האלמנט</label>
+                        <input type="text" name="typeOfTheElements" id="typeOfTheElements" required>
+                    </div>
+
+                    <div class="order"><label for="countOfTheElementsLeft">כמות האלמנטים שתרצה להזין בצד שמאל</label>
+                        <input type="number" name="countOfTheElementsLeft" id="countOfTheElementsLeft" min="0" max="10"
+                            required>
+                    </div>
+                    <div class="order"><label for="countOfTheElementsRight">כמות האלמנטים שתרצה להזין בצד ימין</label>
+                        <input type="number" name="countOfTheElementsRight" id="countOfTheElementsRight" min="0"
+                            max="10" required>
+                    </div>
+                    <div class="order"><label for="countOfTheElementsTop">כמות האלמנטים שתרצה להזין בצד למעלה</label>
+                        <input type="number" name="countOfTheElementsTop" id="countOfTheElementsTop" min="0" max="10"
+                            required>
+                    </div>
+                    <div class="order"><label for="countOfTheElementsBottom">כמות האלמנטים שתרצה להזין בצד למטה</label>
+                        <input type="number" name="countOfTheElementsBottom" id="countOfTheElementsBottom" min="0"
+                            max="10" required>
+                    </div>
+                    <div class="order"><label for="widthfTheElements">רוחב האלמנט</label>
+                        <input type="text" name="widthfTheElements" id="widthfTheElements" required>
+                    </div>
+
+                    <div class="order"><label for="heightofTheElements">אורך האלמנט</label>
+                        <input type="text" name="heightofTheElements" id="heightofTheElements" required>
+                    </div>
+                </div>
+                <div id="button1">
+                    <button id="btnAdd" type="submit">הוסף</button>
+                    <button id="btnRST" type="reset">מחיקה</button>
+                </div>
+                <div id="animation">
+                    <button id="animation1">changeColorAnime</button>
+                    <button id="animation2">rollingElementAnimt</button>
+                    <button id="animation3"> flashAnimation</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex1">
+            <div id="PageBuilder">
+                <div id="rightAndLegt">
+                    <div id="left">
+
+
+                    </div>
+
+                    <div id="right">
+
+                    </div>
+
+                </div>
+                <div id="topToBootom">
+                    <div id="top">
+
+                    </div>
+                    <div id="bottom">
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
