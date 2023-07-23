@@ -269,4 +269,5 @@ animation3.addEventListener("click", function () {
   }
   flashMainDiv();
   animation1.removeEventListener("click");
+  animation1.removeEventListener("click");
 });
