@@ -109,10 +109,11 @@ animation1.addEventListener("click", function () {
     const divTopBox = document.querySelectorAll(".boxTop");
     const divBottomBox = document.querySelectorAll(".boxBottom");
     const newDivMid = document.createElement("div");
-    newDivMid.classList.add("bigDiv-2");
-    newDivMid.style.width = "200px";
-    newDivMid.style.height = "100px";
 
+    newDivMid.classList.add("bigDiv");
+    newDivMid.style.width = "200px";
+    newDivMid.style.height = "200px";
+    newDivMid.style.backgroundColor = "blue";
     newDivMid.innerHTML = `<div><p>we did it</p></div>`;
     PageBuilder.appendChild(newDivMid);
     let counterLeft = 0;
@@ -176,9 +177,11 @@ animation2.addEventListener("click", function () {
     const divTopBox = document.querySelectorAll(".boxTop");
     const divBottomBox = document.querySelectorAll(".boxBottom");
     const newDivMid = document.createElement("div");
-    newDivMid.classList.add("bigDiv-2");
+
+    newDivMid.classList.add("bigDiv");
     newDivMid.style.width = "200px";
-    newDivMid.style.height = "100px";
+    newDivMid.style.height = "200px";
+    newDivMid.style.backgroundColor = "blue";
     newDivMid.innerHTML = `<div><p>we did it</p></div>`;
     PageBuilder.appendChild(newDivMid);
     let counterLeft = 0;
@@ -242,7 +245,6 @@ animation3.addEventListener("click", function () {
     const divBottomBox = document.querySelectorAll(".boxBottom");
     const newDivMid = document.createElement("div");
     newDivMid.classList.add("bigDiv");
-    newDivMid.classList.add("bigDiv-2");
     newDivMid.style.width = "200px";
     newDivMid.style.height = "200px";
     newDivMid.style.backgroundColor = "blue";

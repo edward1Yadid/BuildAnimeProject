@@ -188,10 +188,10 @@
     background-color: rgb(8, 239, 166) !important;
 }
 
-.bigDiv-2 {
+.bigDiv {
     font-size: 50px;
     text-align: center;
-    transform: translate(-200%, 250%) !important;
+    transform: translate(-200%, 150%) !important;
     position: absolute;
     width: 300px;
     background-color: aquamarine;
@@ -199,6 +199,8 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    border-radius: 50%;
+    animation: pluse 2s ease-in-out infinite;
 }
 
 /*animation-2*/
@@ -227,12 +229,7 @@
 
 }
 
-.bigDiv-1 {
 
-    position: absolute;
-    transform: translate(-200%, 250%) !important;
-    animation: spin1 1s infinite;
-}
 
 @keyframes spin1 {
     0% {
@@ -256,12 +253,7 @@
 
 }
 
-.bigDiv {
-    position: absolute;
-    transform: translate(-200%, 150%) !important;
-    border-radius: 50%;
-    animation: pluse 2s ease-in-out infinite;
-}
+
 
 @keyframes pluse {
     0% {
